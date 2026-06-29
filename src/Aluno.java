@@ -7,11 +7,10 @@ public class Aluno extends Pessoa {
 
     ArrayList<Double> notas = new ArrayList<>();
 
-    public Aluno(String nome, String cpf, int idade, String matricula, String curso, ArrayList<Double> notas) {
+    public Aluno(String nome, String cpf, int idade, String matricula, String curso) {
         super(nome, cpf, idade);
         this.matricula = matricula;
         this.curso = curso;
-        this.notas = notas;
     }
 
     void adicionarNota(double nota) {
