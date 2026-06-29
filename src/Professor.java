@@ -6,13 +6,18 @@ public class Professor extends Pessoa {
     public Professor(String nome, String cpf, int idade,  String especialidade,  double salario) {
         super(nome, cpf, idade);
         this.especialidade = especialidade;
+        this.salario = salario;
     }
 
-    public double aplicarReajuste(double percentual) {
+    void aplicarReajuste(double percentual) {
         if (percentual <= 0) {
             System.out.println("O reajuste precisa ser maior que 0");
         } else {
-            return
+            this.salario += (this.salario * percentual) / 100;
+            System.out.format("""
+                    Reajuste realizado com sucesso!
+                    Novo salário: %f
+                    """, salario);
         }
     }
 }
