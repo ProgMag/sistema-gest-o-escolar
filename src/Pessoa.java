@@ -35,4 +35,9 @@ public class Pessoa {
                 Idade: %d
                 """, nome, cpf, idade);
     }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + "\n" + "CPF: " + cpf;
+    }
 }
