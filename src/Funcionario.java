@@ -15,4 +15,13 @@ public class Funcionario extends Pessoa{
     public double calcularSalarioFinal() {
         return this.salario += horasExtras * 25;
     }
+
+    @Override
+    void exibirPerfil() {
+        super.exibirPerfil();
+        System.out.format("""
+                Setor: %s
+                Salário final: %f
+                """, setor, salario);
+    }
 }
