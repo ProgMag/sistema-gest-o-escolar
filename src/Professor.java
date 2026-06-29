@@ -1,6 +1,7 @@
 public class Professor extends Pessoa {
 
     private String especialidade;
+    private double salario;
 
     public Professor(String nome, String cpf, int idade,  String especialidade) {
         super(nome, cpf, idade);
