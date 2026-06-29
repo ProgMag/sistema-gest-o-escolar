@@ -39,4 +39,15 @@ public class Aluno extends Pessoa {
             return "REPROVADO";
         }
     }
+
+    @Override
+    void exibirPerfil() {
+        super.exibirPerfil();
+        System.out.format("""
+                Curso: %s
+                Matricula: %S
+                Média: %f
+                Situação: %s
+                """, curso, matricula, calcularMedia(), getSituacao());
+    }
 }
