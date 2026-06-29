@@ -20,4 +20,13 @@ public class Professor extends Pessoa {
                     """, salario);
         }
     }
+
+    @Override
+    void exibirPerfil() {
+        super.exibirPerfil();
+        System.out.format("""
+                Especialidade: %s
+                Salario: %f
+                """, especialidade, salario);
+    }
 }
