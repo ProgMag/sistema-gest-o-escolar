@@ -21,4 +21,12 @@ public class Aluno extends Pessoa {
             System.out.println("Não foi possível adicionar a nota do aluno. A nota precisa ser entre 0 e 10");
         }
     }
+
+    public double calcularMedia() {
+        double soma = 0.0;
+        for (Double nota : notas) {
+            soma += nota;
+        }
+        return soma / notas.size();
+    }
 }
