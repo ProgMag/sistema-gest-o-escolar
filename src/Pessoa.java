@@ -13,7 +13,6 @@ public class Pessoa {
             this.idade = 1;
             System.out.println("Idade inválida. Definida como 1");
         }
-
     }
 
     public String getNome() {
