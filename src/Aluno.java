@@ -13,4 +13,12 @@ public class Aluno extends Pessoa {
         this.curso = curso;
         this.notas = notas;
     }
+
+    void adicionarNota(double nota) {
+        if (nota >= 0 || nota <= 10) {
+            notas.add(nota);
+        } else {
+            System.out.println("Não foi possível adicionar a nota do aluno. A nota precisa ser entre 0 e 10");
+        }
+    }
 }
