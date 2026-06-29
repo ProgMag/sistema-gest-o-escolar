@@ -24,7 +24,7 @@ public class Aluno extends Pessoa {
 
     public double calcularMedia() {
         double soma = 0.0;
-        for (Double nota : notas) {
+        for (double nota : notas) {
             soma += nota;
         }
         return soma / notas.size();
