@@ -27,4 +27,12 @@ public class Pessoa {
     public int getIdade() {
         return idade;
     }
+
+    void exibirPerfil() {
+        System.out.format("""
+                Nome: %s
+                CPF: %s
+                Idade: %d
+                """, nome, cpf, idade);
+    }
 }
