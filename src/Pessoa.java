@@ -13,5 +13,18 @@ public class Pessoa {
             this.idade = 1;
             System.out.println("Idade inválida. Definida como 1");
         }
+
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public int getIdade() {
+        return idade;
     }
 }
