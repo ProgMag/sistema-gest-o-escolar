@@ -29,4 +29,14 @@ public class Aluno extends Pessoa {
         }
         return soma / notas.size();
     }
+
+    public String getSituacao() {
+        if (calcularMedia() > 7) {
+            return "APROVADO";
+        } else if (calcularMedia() > 5) {
+            return "RECUPERAÇÃO";
+        } else {
+            return "REPROVADO";
+        }
+    }
 }
