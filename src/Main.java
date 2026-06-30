@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     static void main() {
 
@@ -18,5 +20,17 @@ public class Main {
         Funcionario funcionario = new Funcionario("Ricardo", "753.951.874-10", 63, "Auxiliar Administrativo", 4512, 7);
         funcionario.calcularSalarioFinal();
         funcionario.exibirPerfil();
+
+        System.out.println("\n === Utilizando uma ArrayList === ");
+
+        ArrayList<Pessoa> pessoas = new ArrayList<>();
+
+        pessoas.add(professor);
+        pessoas.add(funcionario);
+        pessoas.add(aluno);
+
+        for (Pessoa pessoa : pessoas) {
+            pessoa.exibirPerfil();
+        }
     }
 }

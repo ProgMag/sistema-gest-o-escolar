@@ -29,6 +29,7 @@ public class Pessoa {
 
     void exibirPerfil() {
         System.out.format("""
+                \n
                 Nome: %s
                 CPF: %s
                 Idade: %d
