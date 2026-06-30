@@ -21,7 +21,7 @@ public class Funcionario extends Pessoa{
         super.exibirPerfil();
         System.out.format("""
                 Setor: %s
-                Salário final: %f
+                Salário final: %,.2f
                 """, setor, salario);
     }
 }
