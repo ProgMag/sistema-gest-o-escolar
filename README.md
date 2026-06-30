@@ -192,7 +192,3 @@ Este projeto foi desenvolvido como parte de um curso estruturado de Java com foc
 
 Desenvolvido por **Guilherme** como projeto prático do módulo de Herança.
 
-
-👨‍💻 Autor
-
-Desenvolvido por Guilherme como projeto prático do módulo de Herança.
