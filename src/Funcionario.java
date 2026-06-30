@@ -13,7 +13,7 @@ public class Funcionario extends Pessoa{
     }
 
     public double calcularSalarioFinal() {
-        return this.salario += horasExtras * 25;
+        return this.salario + (horasExtras * 25);
     }
 
     @Override
