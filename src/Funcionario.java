@@ -22,6 +22,6 @@ public class Funcionario extends Pessoa{
         System.out.format("""
                 Setor: %s
                 Salário final: %,.2f
-                """, setor, salario);
+                """, setor, calcularSalarioFinal());
     }
 }
