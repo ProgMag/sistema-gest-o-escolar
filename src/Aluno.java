@@ -5,7 +5,7 @@ public class Aluno extends Pessoa {
     private String matricula;
     private String curso;
 
-    ArrayList<Double> notas = new ArrayList<>();
+    private ArrayList<Double> notas = new ArrayList<>();
 
     public Aluno(String nome, String cpf, int idade, String matricula, String curso) {
         super(nome, cpf, idade);
@@ -30,9 +30,9 @@ public class Aluno extends Pessoa {
     }
 
     public String getSituacao() {
-        if (calcularMedia() > 7) {
+        if (calcularMedia() >= 7) {
             return "APROVADO";
-        } else if (calcularMedia() > 5) {
+        } else if (calcularMedia() >= 5) {
             return "RECUPERAÇÃO";
         } else {
             return "REPROVADO";
@@ -44,7 +44,7 @@ public class Aluno extends Pessoa {
         super.exibirPerfil();
         System.out.format("""
                 Curso: %s
-                Matricula: %S
+                Matricula: %s
                 Média: %.2f
                 Situação: %s
                 """, curso, matricula, calcularMedia(), getSituacao());
