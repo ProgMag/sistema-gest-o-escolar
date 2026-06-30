@@ -1,15 +1,15 @@
-# 🏫 Sistema de Gestão Escolar
+# Sistema de Gestão Escolar
 > Projeto final do tema **Herança** — Curso de Java Orientado a Objetos
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Sistema de gestão escolar desenvolvido em Java para demonstrar na prática os conceitos de **Herança**, **Encapsulamento** e **Polimorfismo**. O sistema modela três tipos de pessoas de uma instituição de ensino — alunos, professores e funcionários — compartilhando uma hierarquia de classes bem definida.
 
 ---
 
-## 🏗️ Estrutura de Classes
+## Estrutura de Classes
 
 ```
 Pessoa  (superclasse)
@@ -82,7 +82,7 @@ Representa um funcionário administrativo da escola.
 
 ---
 
-## 💡 Conceitos de OO Demonstrados
+## Conceitos de OO Demonstrados
 
 ### Herança
 Todas as subclasses reutilizam os atributos e métodos de `Pessoa` sem reescrever código:
@@ -120,7 +120,7 @@ for (Pessoa pessoa : pessoas) {
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - Java 21 ou superior
@@ -147,7 +147,7 @@ java -cp out/ Main
 
 ---
 
-## 📊 Exemplo de Saída
+## Exemplo de Saída
 
 ```
 Nome: Guilherme
@@ -158,7 +158,7 @@ Matricula: 1456987
 Média: 9,17
 Situação: APROVADO
 
-✅ Reajuste de 10.0% aplicado. Novo salário: R$ 9.350,00
+Reajuste de 10.0% aplicado. Novo salário: R$ 9.350,00
 
 Nome: Rebeca
 CPF: 789.145.236-07
@@ -175,7 +175,7 @@ Salário final: R$ 4.687,00
 
 ---
 
-## 📚 Contexto de Aprendizado
+## Contexto de Aprendizado
 
 Este projeto foi desenvolvido como parte de um curso estruturado de Java com foco em Orientação a Objetos. Os temas estudados até este ponto foram:
 
@@ -188,7 +188,7 @@ Este projeto foi desenvolvido como parte de um curso estruturado de Java com foc
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por **Guilherme** como projeto prático do módulo de Herança.
 
