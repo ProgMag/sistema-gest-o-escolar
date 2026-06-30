@@ -16,7 +16,7 @@ public class Professor extends Pessoa {
             this.salario += (this.salario * percentual) / 100;
             System.out.format("""
                     Reajuste realizado com sucesso!
-                    Novo salário: %f
+                    Novo salário: %,.2f
                     """, salario);
         }
     }
@@ -26,7 +26,7 @@ public class Professor extends Pessoa {
         super.exibirPerfil();
         System.out.format("""
                 Especialidade: %s
-                Salario: %f
+                Salário: %,.2f
                 """, especialidade, salario);
     }
 }

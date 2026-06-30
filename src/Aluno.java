@@ -45,7 +45,7 @@ public class Aluno extends Pessoa {
         System.out.format("""
                 Curso: %s
                 Matricula: %S
-                Média: %f
+                Média: %.2f
                 Situação: %s
                 """, curso, matricula, calcularMedia(), getSituacao());
     }
